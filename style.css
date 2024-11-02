@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7bd2f4fc-1c76-4bf6-999f-e85e1d631ee2/dc5e9mo-67b22830-1c27-477f-8e52-c6724087334b.jpg/v1/fill/w_670,h_1192,q_70,strp/cristiano_ronaldo_phone_wallpaper_2017_2018_by_graphicsamhd_dc5e9mo-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mjk0NCIsInBhdGgiOiJcL2ZcLzdiZDJmNGZjLTFjNzYtNGJmNi05OTlmLWU4NWUxZDYzMWVlMlwvZGM1ZTltby02N2IyMjgzMC0xYzI3LTQ3N2YtOGU1Mi1jNjcyNDA4NzMzNGIuanBnIiwid2lkdGgiOiI8PTE2NTYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.-2_-LwtYLjhBQ0-wZzVB4aMm5sJ4nzwA3RQ5_jMb79Q');
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #9b0000;
+}
+
+.hero {
+    background-image: url('https://awsimages.detik.net.id/community/media/visual/2024/06/12/cristiano-ronaldo-timnas-portugal-portugal-vs-republik-irlandia-laga-uji-coba_169.jpeg?w=600&q=90'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #f7f7f781;
+    border: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #d5d5d5;
+}
+
+.profile, .achievements, .gallery {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.profile:hover, .achievements:hover, .gallery:hover {
+    transform: scale(1.02);
+}
+
+.profile h3, .achievements h3, .gallery h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #860000;
+}
+
+.profile p, .achievements ul, .gallery p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.achievements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievements li {
+    margin: 10px 0;
+    color: #333;
+}
+
+.gallery img {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background: #7c0200;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
